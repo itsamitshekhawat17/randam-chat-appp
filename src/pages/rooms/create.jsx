@@ -65,7 +65,7 @@ export default function Home() {
             <div className="h-screen relative flex flex-col justify-center items-center ">
                 <div className="bg-dark-2 md:shadow-lg shadow-none p-8 pb-0 rounded-xl w-80 md:w-[fit-content]">
                     <div className="flex flex-col items-center space-y-3">
-                        <span className="text-xl md:text-2xl font-semi-bold leading-normal text-white">Create New Room</span>
+                        <span className="text-xl md:text-2xl font-semi-bold leading-normal text-white">Create New Chat Room</span>
                     </div>
                     {error && <div className="w-full rounded-md px-4 p-2 border-red-500 border text-red-500 bg-red-500/20 mt-4">
                         <p>{error || "Something went wrong.."}</p>
