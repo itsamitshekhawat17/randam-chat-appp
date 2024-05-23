@@ -8,6 +8,7 @@ export default (async (req, res) => {
   }
 
   const io = new Server(res.socket.server, {
+    addTrailingSlash: false,
     pingInterval: 10000,
     pingTimeout: 5000
   });
